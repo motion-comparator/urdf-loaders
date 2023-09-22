@@ -82,7 +82,7 @@ function compareRobots(ra, rb) {
 
 }
 
-describe.skip('File Argument', () => {
+describe('File Argument', () => {
 
     it('should work if the file is already parsed', async() => {
 
@@ -435,7 +435,7 @@ describe('Material Tags', () => {
 
 });
 
-describe.skip('TriATHLETE Climbing URDF', () => {
+describe('TriATHLETE Climbing URDF', () => {
 
     let robot;
     beforeEach(async() => {
